@@ -1,0 +1,7 @@
+1. plug Pico in USB port w/ button pressed
+2. move .uf2 file to its storage and wait until it writes into firmware and reloads
+3. move adafruit_hid from the current folder to Pico's lib folder
+4. move boot.py and code.py to root of Pico's storage
+5. edit code.py to change the mouse's movement 
+6. plug it off and plug it on to start executing the code.py
+7. reset Flash memory with flash_nuke.uf2 file if needed
